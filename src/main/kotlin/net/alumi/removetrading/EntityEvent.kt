@@ -13,7 +13,7 @@ import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent
 import net.neoforged.neoforge.event.village.VillagerTradesEvent
 
 object EntityEvent {
-    private val resultItem = ItemStack(Items.MELON_SLICE)
+    private val resultItem = ItemStack(Items.COOKIE)
 
     fun register(modBus: IEventBus, gameBus: IEventBus) {
         gameBus.addListener(::onVillagerSetProfession)
